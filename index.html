@@ -24,7 +24,7 @@
   <!-- Navbar -->
   <header class="header">
     <!-- Logo + Botão de Menu Mobile -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./images/logo.svg" alt="">
@@ -96,18 +96,34 @@
   
   <!-- Section 1 (Text) -->
   <section class="section-1"> 
-    <h1 class="title-text">Designed for the future</h1>
-    <img src="./images/illustration-editor-mobile.svg" alt="">
-    <h1 class="title-text">Introducing an extensible editor</h1>
-    <p class="body-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-          change the looks of a blog.
-    </p>
-    <h1 class="title-text">Robust content management</h1>
-    <p class="body-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-      by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-    </p>
+    <h1 class="title-text section-1-title">Designed for the future</h1>
+
+    <div class="section-1-content">
+      <div class="section-1-img">
+        <img src="./images/illustration-editor-mobile.svg" alt="">
+      </div>
+
+      <div class="section-1-text">
+        <div>
+          <h1 class="title-text">Introducing an extensible editor</h1>
+          <p class="body-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.
+          </p>
+        </div>
+        <div>
+          <h1 class="title-text">Robust content management</h1>
+          <p class="body-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
   </section>
 
   <!-- Section 2 (Img + Text) -->
